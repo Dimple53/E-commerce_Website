@@ -1,20 +1,13 @@
+import ProductCarouselComponent from "../components/ProductCarouselComponent";
+import CategoryCardComponent from "../components/CategoryCardComponent";
+
 const HomePage = () => {
-      return <p>This is a home Page</p>;                                                                                  
-
+  return (
+    <>
+      <ProductCarouselComponent />
+      <CategoryCardComponent />
+    </>
+  );
 };
+
 export default HomePage;
-
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import HomePage from "./pages/HomePage";
-
-// function App() {
-//   return (
-//     <BrowserRouter>
-//       <Routes>
-//         <Route path="/" element={<HomePage />} />
-//       </Routes>
-//     </BrowserRouter>
-//   );
-// }
-
-// export default App;
