@@ -1,4 +1,4 @@
 const UserOrderDetailsPage = () => {
-  return <p>This is a cart;;;;;;;; Page</p>;
+  return <p>This is a user  order details Page</p>;
 };
 export default UserOrderDetailsPage;
